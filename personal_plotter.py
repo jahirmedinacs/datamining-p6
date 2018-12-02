@@ -131,7 +131,7 @@ def make_targets(proto_targets, samples=3, labels=None):
 		if len(labels) == samples:
 			have_labels = True
 		else:
-			print("Labels Doesn't Applyed, Sizen Doesnt Match :>> SAMPLES {:d} , LABELS {:d".format(samples, len(labels)))
+			print("Labels Doesn't Applyed, Sizen Doesnt Match :>> SAMPLES {:d} , LABELS {:d}".format(samples, len(labels)))
 			pass
 
 	top_container = []
